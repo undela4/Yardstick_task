@@ -1,6 +1,6 @@
 import React, { useState, useEffect ,memo} from 'react';
 import { Button, Table, Form } from 'react-bootstrap';
-import { categories } from '../utils/transactionHelpers';
+import { categories } from '../utils/transactionHelpers.js';
 import axios from'axios';
 const BudgetManager = ({ budgets, onUpdateBudgets }) => {
 

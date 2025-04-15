@@ -1,10 +1,11 @@
 import React, { useState, useEffect } from 'react';
-import SummaryCards from '../Common/SummaryCards';
-import MonthlyExpensesChart from '../Charts/MonthlyExpensesChart';
-import CategoryPieChart from '../Charts/CategpryPieChart';
-import BudgetManager from '../Budget/BudgetManager';
-import BudgetVsActualChart from '../Charts/BudgetvsActualChart';
-import SpendingInsights from '../Insights/SpendingInsights';
+import SummaryCards from '../Common/SummaryCards.jsx';
+import MonthlyExpensesChart from '../Charts/MonthlyExpensesChart.jsx';
+import CategoryPieChart from '../Charts/CategpryPieChart.jsx'
+import BudgetManager from '../Budget/BudgetManager.jsx';
+import BudgetVsActualChart from '../Charts/BudgetVsActualChart.jsx'
+';
+import SpendingInsights from '../Insights/SpendingInsights.jsx';
 import { 
   calculateMonthlyExpenses, 
   calculateCategoryExpenses,
@@ -12,7 +13,7 @@ import {
   categories
 } from '../utils/transactionHelpers';
 
-import {calculateBudgetVsActual,  getSpendingInsights,initializeBudgets} from'../utils/budgetHelper';
+import {calculateBudgetVsActual,  getSpendingInsights,initializeBudgets} from'../utils/budgetHelper.js';
 
 
 
