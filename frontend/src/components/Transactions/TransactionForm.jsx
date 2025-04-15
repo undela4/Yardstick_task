@@ -1,5 +1,5 @@
 import React from 'react';
-import { categories } from '../utils/transactionHelpers';
+import { categories } from '../utils/TransactionHelpers.js';
 
 const TransactionForm = ({ 
   formData, 

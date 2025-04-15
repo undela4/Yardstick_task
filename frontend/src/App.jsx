@@ -8,7 +8,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.css';
 
 //Root URL for the backend API 
-const API_URL = 'http://localhost:5000/yardstick';
+const API_URL = 'https://yardstick-task.onrender.com/yardstick';
 
 const App = () => {
 

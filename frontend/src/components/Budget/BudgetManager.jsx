@@ -26,7 +26,7 @@ const BudgetManager = ({ budgets, onUpdateBudgets }) => {
 
   const handleSave = async() => {
     try{
-      axios.put('http://localhost:5000/yardstick/setBudgets', editableBudgets).then((r)=>{
+      axios.put('https://yardstick-task.onrender.com/yardstick/setBudgets', editableBudgets).then((r)=>{
         if(r.data.status){
           alert("Budgets updated successfully")
           onUpdateBudgets(r.data.data);
