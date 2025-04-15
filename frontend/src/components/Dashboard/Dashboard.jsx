@@ -3,8 +3,9 @@ import SummaryCards from '../Common/SummaryCards.jsx';
 import MonthlyExpensesChart from '../Charts/MonthlyExpensesChart.jsx';
 import CategoryPieChart from '../Charts/CategpryPieChart.jsx'
 import BudgetManager from '../Budget/BudgetManager.jsx';
-import BudgetVsActualChart from '../Charts/BudgetVsActualChart.jsx'
-';
+
+import BudgetVsActualChart from '../Charts/BudgetvsActualChart.jsx';
+
 import SpendingInsights from '../Insights/SpendingInsights.jsx';
 import { 
   calculateMonthlyExpenses, 
