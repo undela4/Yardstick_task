@@ -8,7 +8,7 @@ const SummaryCards = ({
   return (
     <div className="row">
       <div className="col-md-4 mb-4">
-        <div className="card h-100">
+        <div className="card h-sm-100 h-md-100">
           <div className="card-header bg-primary text-white">
             <h5>Total Expenses</h5>
           </div>
@@ -19,7 +19,7 @@ const SummaryCards = ({
       </div>
 
       <div className="col-md-4 mb-4">
-        <div className="card h-100">
+        <div className="card h-sm-50 h-md-100">
           <div className="card-header bg-success text-white">
             <h5>Top Category</h5>
           </div>
@@ -63,6 +63,7 @@ const SummaryCards = ({
           </div>
         </div>
       </div>
+
     </div>
   );
 };

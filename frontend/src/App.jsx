@@ -158,7 +158,7 @@ const App = () => {
   }
 
   return (
-    <div className="container mt-4">
+    <div className="container-sm-fluid container-lg mt-4">
       <h1 className="text-center mb-4">Transaction Tracker</h1>
       
       <ul className="nav nav-tabs mb-4">

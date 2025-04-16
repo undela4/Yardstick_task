@@ -28,6 +28,7 @@ const Dashboard = ({ transactions, budgets, onUpdateBudgets }) => {
 
   return (
     <div className="dashboard">
+      
       <SummaryCards 
         totalExpenses={totalExpenses}
         categoryExpenses={categoryExpenses}

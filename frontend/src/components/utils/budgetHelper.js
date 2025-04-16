@@ -35,8 +35,7 @@ export const initializeBudgets = (categories) => {
     
     const insights = [];
     const now = new Date();
-    const currentMonth = now.getMonth();
-    const currentYear = now.getFullYear();
+    
     
     // Monthly spending trend
     const monthlySpending = {};
@@ -61,7 +60,7 @@ export const initializeBudgets = (categories) => {
     
     insights.push({
       title: "Biggest Expense",
-      value: `$${biggestExpense.amount.toFixed(2)} on ${biggestExpense.description}`,
+      value: `₹ ${biggestExpense.amount.toFixed(2)} on ${biggestExpense.description}`,
       category: biggestExpense.category
     });
     
@@ -73,7 +72,7 @@ export const initializeBudgets = (categories) => {
     
     insights.push({
       title: "Average Daily Spend",
-      value: `$${avgDailySpend.toFixed(2)}`
+      value: `₹ ${avgDailySpend.toFixed(2)}`
     });
     
     return insights;

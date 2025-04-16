@@ -20,7 +20,7 @@ const TransactionList = ({ transactions, onEdit, onDelete }) => {
               <td>{transaction.description}</td>
               <td>{transaction.category}</td>
               <td>${transaction.amount}</td>
-              <td>
+              <td className='d-flex gap-1'>
                 <button
                   className="btn btn-sm btn-warning me-2"
                   onClick={() => onEdit(transaction)}

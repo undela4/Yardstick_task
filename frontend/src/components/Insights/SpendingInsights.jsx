@@ -22,7 +22,7 @@ const SpendingInsights = ({ insights }) => {
                     {insight.value}
                     {insight.amount && (
                       <span className="d-block mt-1 fw-bold">
-                        ${insight.amount.toFixed(2)}
+                        ₹ {insight.amount.toFixed(2)}
                       </span>
                     )}
                   </Card.Text>
